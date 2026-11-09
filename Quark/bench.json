@@ -1,0 +1,62 @@
+[
+  {
+    "tag": "qwen3:0.6b",
+    "file_gb": 0.5,
+    "predicted_tokens_s": 32.426483,
+    "load_ms": null,
+    "tokens_s": null,
+    "prompt_tokens_s": null,
+    "ram_gb": null,
+    "skipped": "модель не скачана или не ответила"
+  },
+  {
+    "tag": "qwen3:1.7b",
+    "file_gb": 1.4,
+    "predicted_tokens_s": 11.580887,
+    "load_ms": null,
+    "tokens_s": null,
+    "prompt_tokens_s": null,
+    "ram_gb": null,
+    "skipped": "модель не скачана или не ответила"
+  },
+  {
+    "tag": "gemma2:2b",
+    "file_gb": 1.6,
+    "predicted_tokens_s": 10.133275,
+    "load_ms": null,
+    "tokens_s": null,
+    "prompt_tokens_s": null,
+    "ram_gb": null,
+    "skipped": "модель не скачана или не ответила"
+  },
+  {
+    "tag": "llama3.2:3b",
+    "file_gb": 2.0,
+    "predicted_tokens_s": 8.106621,
+    "load_ms": null,
+    "tokens_s": null,
+    "prompt_tokens_s": null,
+    "ram_gb": null,
+    "skipped": "модель не скачана или не ответила"
+  },
+  {
+    "tag": "qwen3:4b-instruct-2507-q4_K_M",
+    "file_gb": 2.5,
+    "predicted_tokens_s": 6.4852962,
+    "load_ms": 9714,
+    "tokens_s": 6.4251404,
+    "prompt_tokens_s": 197.60956,
+    "ram_gb": 2.6840918,
+    "skipped": null
+  },
+  {
+    "tag": "llama3.1:8b",
+    "file_gb": 4.7,
+    "predicted_tokens_s": 3.449626,
+    "load_ms": null,
+    "tokens_s": null,
+    "prompt_tokens_s": null,
+    "ram_gb": null,
+    "skipped": "нужно 5.8 ГБ, бюджет 5.3"
+  }
+]

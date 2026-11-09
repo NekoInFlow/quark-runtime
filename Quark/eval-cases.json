@@ -1,0 +1,42 @@
+{
+  "about": "Набор проверочных фраз. expect — какой навык должен сработать, reply — корректный отказ.",
+  "cases": [
+    { "text": "открой блокнот", "expect": "open_app", "tier": "rule" },
+    { "text": "открой калькулятор", "expect": "open_app", "tier": "rule" },
+    { "text": "запусти проводник", "expect": "open_app", "tier": "rule" },
+    { "text": "открой paint", "expect": "open_app", "tier": "rule" },
+    { "text": "запусти диспетчер задач", "expect": "open_app", "tier": "rule" },
+    { "text": "найди договор", "expect": "find_files", "tier": "rule" },
+    { "text": "найди файл отчёт", "expect": "find_files", "tier": "rule" },
+    { "text": "поищи смету", "expect": "find_files", "tier": "rule" },
+    { "text": "прочитай заметки.txt", "expect": "read_text", "tier": "rule" },
+    { "text": "что в файле заметки.txt", "expect": "read_text", "tier": "rule" },
+    { "text": "заблокируй экран", "expect": "lock_screen", "tier": "rule" },
+    { "text": "заблокируй компьютер", "expect": "lock_screen", "tier": "rule" },
+    { "text": "создай файл тест.txt с текстом привет", "expect": "write_text", "tier": "rule" },
+
+    { "text": "мне надо открыть блокнот", "expect": "open_app", "tier": "model" },
+    { "text": "запусти-ка калькулятор пожалуйста", "expect": "open_app", "tier": "model" },
+    { "text": "хочу открыть проводник", "expect": "open_app", "tier": "model" },
+    { "text": "в каких файлах есть слово договор", "expect": "find_files", "tier": "model" },
+    { "text": "мне нужно найти файл про смету", "expect": "find_files", "tier": "model" },
+    { "text": "поищи что-нибудь про отчёт", "expect": "find_files", "tier": "model" },
+    { "text": "покажи что лежит в файле заметки.txt", "expect": "read_text", "tier": "model" },
+    { "text": "глянь содержимое заметки.txt", "expect": "read_text", "tier": "model" },
+    { "text": "выруби экран", "expect": "lock_screen", "tier": "model" },
+    { "text": "запри компьютер", "expect": "lock_screen", "tier": "model" },
+    { "text": "сделай файл список.txt с текстом молоко", "expect": "write_text", "tier": "model" },
+    { "text": "запиши в файл идеи.txt текст купить лампу", "expect": "write_text", "tier": "model" },
+    { "text": "что написано в договоре.docx", "expect": "ask_file", "tier": "model" },
+    { "text": "перескажи отчёт.docx", "expect": "ask_file", "tier": "model" },
+
+    { "text": "привет", "expect": "reply", "tier": "model" },
+    { "text": "как дела", "expect": "reply", "tier": "model" },
+    { "text": "сколько будет два плюс два", "expect": "reply", "tier": "model" },
+    { "text": "напиши стих про осень", "expect": "reply", "tier": "model" },
+    { "text": "который час", "expect": "reply", "tier": "model" },
+    { "text": "какая сегодня погода", "expect": "reply", "tier": "model" },
+    { "text": "расскажи анекдот", "expect": "reply", "tier": "model" },
+    { "text": "спасибо", "expect": "reply", "tier": "model" }
+  ]
+}
